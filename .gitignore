@@ -1,2 +1,5 @@
 .env
-/kwikly_scraper/output
+kwikly_scraper/kwikly_scraper/output/
+kwikly_scraper/kwikly_scraper/__pycache__/
+kwikly_scraper/kwikly_scraper/spiders/__pycache__
+qdrant_storage/

@@ -15,6 +15,7 @@ class KwiklyCrawlerSpider(CrawlSpider):
         # Define rules for following links
     rules = (
         Rule(
+
             LinkExtractor(
                 allow_domains=allowed_domains,
                 deny=( # Add patterns you want to exclude
